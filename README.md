@@ -14,4 +14,4 @@ Test Set
 https://storage.googleapis.com/ibeans/test.zip
 
 
-[Model accuracy] (https://github.com/Exzort567/cnn_bean_leaf_disease/blob/main/images/accuracy.png)
+![Model accuracy](https://raw.githubusercontent.com/Exzort567/cnn_bean_leaf_disease/main/images/accuracy.png)
