@@ -2,13 +2,13 @@
 
 
 
-# dataset:
+dataset:
 
-# Training Set
+Training Set
 https://storage.googleapis.com/ibeans/train.zip
 
-# Validation Set
+Validation Set
 https://storage.googleapis.com/ibeans/validation.zip
 
-# Test Set
+Test Set
 https://storage.googleapis.com/ibeans/test.zip
