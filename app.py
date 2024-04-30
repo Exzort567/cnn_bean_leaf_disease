@@ -29,6 +29,10 @@ def predict(image):
 def main():
     st.title("Bean Leaf Disease Classification")
 
+    st.write("Classes: Healthy, Angular Leaf Spot, Bean Rust")
+    st.write("Test Loss: 21.42%")
+    st.write("Test Accuracy: 91.41%")
+
     # File uploader
     uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
