@@ -28,8 +28,10 @@ def predict(image):
 # Streamlit app
 def main():
     st.title("Bean Leaf Disease Classification")
+    st.markdown("<p style='color:green;'>Classes</p>", unsafe_allow_html=True)
+    st.write("Angular Leaf Spot, Healthy, Bean Rust")
 
-    st.write("Classes: Healthy, Angular Leaf Spot, Bean Rust")
+    st.subheader("Model Accuracy")
     st.write("Test Loss: 21.42%")
     st.write("Test Accuracy: 91.41%")
 
