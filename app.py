@@ -42,12 +42,15 @@ def main():
         # Display uploaded image
         image_bytes = uploaded_file.read()
         image = Image.open(io.BytesIO(image_bytes))
-        st.image(image, caption="Uploaded Image", use_column_width=True)
+        st.image(image, caption="Uploaded Image", width=400)
+
+
+
 
         # Make prediction
-        predicted_class, accuracy = predict(image)  # Pass the PIL Image object
+        predicted_class, accuracy = predict(image) 
         st.write("Prediction:", predicted_class)
-        st.write("Accuracy:", accuracy)
+        st.write("<span style='color: green;'>Accuracy: {:.2f}%</span>".format(accuracy * 100), unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
